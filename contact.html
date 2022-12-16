@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urbi : Portfolio</title>
+   <link rel="stylesheet" type="text/css" href="Portfolio.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar sidebarGo">
+        <nav  style="padding: 72px;">
+            <ul>
+                <li><a href="Portfolio.html">Home</a></li>
+                <li><a href="intro.html">My Intro</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>          
+            </ul>
+        </nav>
+        </div>
+        <div class="main">
+            <div class="hamburger">
+            <img class="ham" src="hamburger.png" width="25px">
+            <img class="cross" src="cross.png" width="23px">
+            </div>
+        <div class="contactform">
+            <h1>Contact me for Work/ General Enquiries</h1><br><br>
+            <form>
+                <div class="form-group">
+                  <label for="clientname">Name</label>
+                  <input type="text" class="form-control" id="clientname" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <label for="clientemail">Email address</label>
+                  <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp" placeholder="Enter email"><br>
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your info with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="clientphn">Phone Number</label>
+                  <input type="phone" class="form-control" id="clientphn" placeholder="Phone No.">
+                </div>
+                <div class="form-group">
+                  <label for="enquiry">Enquiry</label>
+                  <input type="text" class="form-control" id="enquiry" placeholder="Type your Query">
+                </div>
+                <div class="form-group" id="form-check" >
+                  <input type="checkbox" class="form-check-input" id="isclient">
+                  <label class="form-check-label" for="isclient">I want you to work on a project with me</label>
+                </div>
+                <div class="buttons">
+                <button type="submit" class="btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>  
+        </div>
+    </div>
+</body>
+<script src="Portfolio.js"></script>
+</html>
